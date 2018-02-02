@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl" >
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Yoman</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script/jquery.js"></script>
+
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+    <table class="table" id="table1">
+
+            <tr>
+                <th> sun</th>
+                <th> mon</th>
+                <th>tue</th>
+                <th>wen</th>
+                <th>thu</th>
+                <th>fri</th>
+                <th>sat</th>
+            </tr>
+    
+     
+            <tr>
+                <td id="sun"></td>
+                <td id="mon"></td>
+                <td id="tue"></td>
+                <td id="wen"></td>
+                <td id="thu"></td>
+                <td id="fri"></td>
+                <td id="sat"></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+            <tr>
+                <td></td>
+            </tr>
+    </table>
+
+    
+  
+    <center>
+          <h1>
+    הוסף משימה ליומן
+    </h1>
+    <label > מה המשימה:
+    <input type="text" placeholder="הכנס משימה" id="task"/>
+    </label>
+  <label >איזה יום?
+    <select class="first-opt-hidden" id="day">
+    <option></option>
+    <option>sun</option>
+    <option>שני</option>
+    <option>שלישי</option>
+    <option>רביעי</option>
+    <option>חמישי</option>
+    <option>שישי</option>
+    <option>שבת</option>
+</select>
+        </label>
+    <button class="btn" id="add"> הוסף משימה</button>
+    </center>
+        <script src="script/script.js"></script>
+</body>
+
+</html>
